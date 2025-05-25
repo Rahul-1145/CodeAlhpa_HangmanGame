@@ -18,9 +18,9 @@ incorrect_guesses = 0
 max_guesses = 6
 display_word = ['_' for _ in secret_word]
 
-print("🎮 Welcome to Hangman with Hints!")
+print("Welcome to Hangman with Hints!")
 print("Guess the word, one letter at a time.")
-print(f"💡 Hint: {hint}")
+print(f"Hint: {hint}")
 print(f"You have {max_guesses} incorrect guesses.\n")
 
 # Game loop
